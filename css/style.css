@@ -577,6 +577,7 @@ body._touch .menu__list > li._active .menu__arrow:after {
   border-radius: 5px;
   -webkit-overflow: hidden;
           overflow: hidden;
+  z-index: 20;
 }
 
 .item__image img{
