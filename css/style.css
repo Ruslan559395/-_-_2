@@ -575,8 +575,7 @@ body._touch .menu__list > li._active .menu__arrow:after {
   height: 200px;
   border: 1px solid #fff;
   border-radius: 5px;
-  -webkit-overflow: hidden;
-          overflow: hidden;
+  overflow: hidden;
   z-index: 0;
 }
 
