@@ -445,10 +445,11 @@ da.init();
 }());
 
 
-if (/iPad|iPhone|iPod/.test(navigator.userAgent)) {
-  window.document.addEventListener('touchmove', e => {
-    if(e.scale !== 1) {
-      e.preventDefault();
-    }
-  }, {passive: false});
-}
+var lastTouchEnd = 0;
+document.addEventListener('touchend', function (event) {
+  var now = (new Date()).getTime();
+  if (now - lastTouchEnd <= 300) {
+    event.preventDefault();
+  }
+  lastTouchEnd = now;
+}, false);
