@@ -40,14 +40,10 @@ body {
   /*font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;*/
   background-color: #55555e;
   color: #fff;
-  position: fixed;
+  position: relative;
 }
 
 body._lock {
-  top: 0;
-left: 0;
-right: 0;
-bottom: 0;
   -webkit-overflow: hidden;
           overflow: hidden;
 }
