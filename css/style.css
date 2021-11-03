@@ -44,6 +44,10 @@ body {
 }
 
 body._lock {
+  top: 0;
+left: 0;
+right: 0;
+bottom: 0;
   -webkit-overflow: hidden;
           overflow: hidden;
 }
