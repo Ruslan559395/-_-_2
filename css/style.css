@@ -1379,6 +1379,7 @@ body._pc .btn span:hover::after {
   font-size: 28px;
   color: #f3f5a2;
   font-family: 'Caveat';
+  line-height: 1.24 /*32px*/;
 }
 
 .east__slider-wrapper {
