@@ -1,0 +1,6 @@
+@font-face {
+	font-family: 'Vin Mono Pro';
+	src: url('VinMonoPro-Light.woff2') format('woff2'), url('VinMonoPro-Light.woff') format('woff');
+	font-weight: 300;
+	font-style: normal;
+}
