@@ -2932,7 +2932,8 @@ body._pc .slider__control:hover {
   }
 
   .swiper-pagination {
-    bottom: calc(0px + 10 * (100vw - 320px) / 380);
+    bottom: 0;
+  /* bottom: calc(0px + 10 * (100vw - 320px) / 380); */
   }
 
   .swiper-pagination-bullet {
