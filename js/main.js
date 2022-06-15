@@ -1086,7 +1086,7 @@ let myTextSlider = new Swiper('.sliderSwiper__column-body-text', {
 	// перетаскивания на ПК
 	simulateTouch: false,
 	// Чувствительность свайпа
-	touchRatio: 0,
+	touchRatio: 1,
 	// Угол срабатывания свайпа/перетаскивания
 	touchAngle: 45,
 	// Курсор перетаскивания будет выглядеть как рука
