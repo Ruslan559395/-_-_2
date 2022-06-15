@@ -1,7 +1,7 @@
 
 "use strict";
 
-
+alert(1);
 // Форма
 
 document.addEventListener('DOMContentLoaded', function () {
