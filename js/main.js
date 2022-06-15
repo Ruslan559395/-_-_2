@@ -1184,8 +1184,20 @@ let myTextSlider = new Swiper('.sliderSwiper__column-body-text', {
 	// Обновить свайпер
 	// при изменении дочерних
 	// элементов слайда
-	observeSlideChildren: true
-});
+	observeSlideChildren: true,
+	
+	allowTouchMove: false,
+
+        breakpoints: {
+
+	700: {
+
+	allowTouchMove: true,
+
+	},
+
+	},
+	});
 
 
 myImageSlider.controller.control = myTextSlider;
