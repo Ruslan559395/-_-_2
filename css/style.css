@@ -2930,7 +2930,7 @@ body._pc .slider__control:hover {
 	}
 
 	.swiper-slide__title {
-		margin: calc(5px + (20 - 5) * ((100vw - 320px) / (700 - 320))) 0px 20px 0px;
+/* 		margin: calc(5px + (20 - 5) * ((100vw - 320px) / (700 - 320))) 0px 20px 0px; */
 		font-size: calc(22px + (30 - 22) * ((100vw - 320px) / (700 - 320)));
 	}
 
@@ -2963,7 +2963,7 @@ body._pc .slider__control:hover {
 
 	.swiper-pagination {
 		bottom: 0;
-		z-index: 0;
+/* 		z-index: 0; */
 	}
 
 	.swiper-pagination-bullet {
