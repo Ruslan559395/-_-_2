@@ -1,7 +1,7 @@
 
 "use strict";
 
-alert(1);
+
 // Форма
 
 document.addEventListener('DOMContentLoaded', function () {
@@ -1186,3 +1186,4 @@ let myTextSlider = new Swiper('.sliderSwiper__column-body-text', {
 
 myImageSlider.controller.control = myTextSlider;
 myTextSlider.controller.control = myImageSlider;
+alert(1);
