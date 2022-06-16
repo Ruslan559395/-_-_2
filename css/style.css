@@ -2939,7 +2939,7 @@ body._pc .slider__control:hover {
 	}
 
 	.swiper-slide__text {
-		margin-top: 10px;
+             /* 		margin-top: 10px; */
 		font-size: calc(14px + (17 - 14) * ((100vw - 320px) / (700 - 320)));
 	}
 
