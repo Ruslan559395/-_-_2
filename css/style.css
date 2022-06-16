@@ -2725,6 +2725,7 @@ body._pc .slider__control:hover {
 	width: 100%;
 	height: 100%;
 	border: 2px solid #fff;
+	-webkit-overflow: hidden;
 	overflow: hidden;
 }
 
@@ -2732,6 +2733,7 @@ body._pc .slider__control:hover {
 	display: flex;
 	flex-direction: column;
 	padding: 10px;
+	-webkit-overflow: auto;
 	overflow: auto;
 }
 
@@ -2971,7 +2973,7 @@ body._pc .slider__control:hover {
 		height: calc(15px + 10 * (100vw - 320px) / 380);
 		line-height: calc(15px + 10 * (100vw - 320px) / 380);
 		font-size: calc(10px + 5 * (100vw - 320px) / 380);
-		background-color: #fff;
+/* 		background-color: #fff; */
 
 	}
 }
