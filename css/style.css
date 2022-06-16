@@ -2744,11 +2744,9 @@ body._pc .slider__control:hover {
 
 .swiper-slide__icon_Sub-title {
 	-webkit-box-flex: 1;
-/* 	-ms-flex: 1 1 auto;
-	flex: 1 1 auto;
 	display: -webkit-box;
 	display: -ms-flexbox;
-	display: flex; */
+	display: flex;
 	-ms-flex-wrap: wrap;
 	flex-wrap: wrap;
 	-webkit-box-pack: center;
@@ -2806,8 +2804,8 @@ body._pc .slider__control:hover {
 
 .swiper-slide__text {
 	-webkit-box-flex: 1;
-	-ms-flex: 1 1 100%;
-	flex: 1 1 100%;
+	-ms-flex: 0 0 100%;
+	flex: 0 0 100%;
 	font-family: "Lionelofparis";
 	font-size: 17px;
 	line-height: 1.058;
