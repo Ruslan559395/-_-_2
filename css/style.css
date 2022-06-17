@@ -2761,7 +2761,7 @@ body._pc .slider__control:hover {
 }
 
 .swiper-slide__sub-title {
-	/* text-align: center; */
+	padding-right: 35px;
 	position: relative;
 	color: #fff;
 	font-size: 20px;
@@ -2776,11 +2776,11 @@ body._pc .slider__control:hover {
 .text-slider__slide._init .swiper-slide__sub-title::after {
 	content: "";
 	width: 20px;
-	height: 4px;
+	height: 1px;
 	background-color: #28b78d;
 	position: absolute;
 	top: 50%;
-	right: -35px;
+	right: 0;
 	-webkit-transition: -webkit-transform 0.3s ease 0s;
 	transition: -webkit-transform 0.3s ease 0s;
 	-o-transition: transform 0.3s ease 0s;
