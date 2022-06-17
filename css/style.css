@@ -2968,10 +2968,10 @@ body._pc .slider__control:hover {
 	}
 
 	.swiper-pagination-bullet {
-/* 		width: calc(15px + 10 * (100vw - 320px) / 380);
+		width: calc(15px + 10 * (100vw - 320px) / 380);
 		height: calc(15px + 10 * (100vw - 320px) / 380);
 		line-height: calc(15px + 10 * (100vw - 320px) / 380);
-		font-size: calc(10px + 5 * (100vw - 320px) / 380); */
+		font-size: calc(10px + 5 * (100vw - 320px) / 380);
 		background-color: #fff;
 	}
 }
