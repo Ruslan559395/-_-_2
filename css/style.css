@@ -2729,8 +2729,8 @@ body._pc .slider__control:hover {
 }
 
 .text-slider__slide {
-	display: flex;
-	flex-direction: column;
+/* 	display: flex;
+	flex-direction: column; */
 	padding: 10px;
 	overflow: auto;
 }
@@ -2746,7 +2746,7 @@ body._pc .slider__control:hover {
 }
 
 .swiper-slide__icon_Sub-title {
-/* 	display: flex; */
+	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
 	align-items: center;
