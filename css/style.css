@@ -2765,6 +2765,7 @@ body._pc .slider__control:hover {
 }
 
 .swiper-slide__sub-title {
+	flex: 0 0 auto;
 	position: relative;
 	color: #fff;
 	font-size: 20px
