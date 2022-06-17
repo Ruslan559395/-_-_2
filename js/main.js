@@ -1186,4 +1186,4 @@ let myTextSlider = new Swiper('.sliderSwiper__column-body-text', {
 
 myImageSlider.controller.control = myTextSlider;
 myTextSlider.controller.control = myImageSlider;
-alert(3);
+alert(4);
