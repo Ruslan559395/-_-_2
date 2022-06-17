@@ -867,7 +867,7 @@ let myImageSlider = new Swiper('.sliderSwiper__column-body', {
 
 		// Буллеты
 		type: 'bullets',
-		clickable: true,
+		clickable: false,
 		// Динамические буллеты
 		dynamicBullets: true,
 		// Кастомные буллеты
@@ -1186,4 +1186,4 @@ let myTextSlider = new Swiper('.sliderSwiper__column-body-text', {
 
 myImageSlider.controller.control = myTextSlider;
 myTextSlider.controller.control = myImageSlider;
-alert(10);
+alert(11);
