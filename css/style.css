@@ -2746,7 +2746,7 @@ body._pc .slider__control:hover {
 }
 
 .swiper-slide__icon_Sub-title {
-	display: flex;
+/* 	display: flex; */
 	flex-wrap: wrap;
 	justify-content: center;
 	align-items: center;
