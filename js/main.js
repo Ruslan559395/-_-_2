@@ -1266,3 +1266,6 @@ function init() {      // Здесь мы создаём конструктор 
 	map.geoObjects.add(clusterer);
 	clusterer.add(geoObjects);
 }
+
+
+alert(1);
